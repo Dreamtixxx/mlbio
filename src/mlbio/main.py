@@ -8,7 +8,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 
-df = pd.read_csv("data/wdbc.csv")
+df = pd.read_csv("src/mlbio/data/wdbc.csv")
 
 # Exclude the identifier and diagnosis from the model inputs.
 x = df.iloc[:, 2:]

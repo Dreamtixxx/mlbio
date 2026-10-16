@@ -8,7 +8,6 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "opencv-contrib-python>=5.0.0.93",
     "pandas>=3.0.6",
     "scikit-learn>=1.9.1",
 ]
