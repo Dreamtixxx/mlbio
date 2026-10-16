@@ -1,0 +1,20 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (WDBC)",
+  "source": "scikit-learn load_breast_cancer; derived from the UCI WDBC dataset",
+  "uci_url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+  "sklearn_version": "1.7.2",
+  "file": "data/wdbc.csv",
+  "sha256": "3984b1f0fe1431e2f044e5d10451d4208f759d1b1128b199ffac8bb655280131",
+  "rows": 569,
+  "feature_columns": 30,
+  "diagnosis_counts": {
+    "benign": 357,
+    "malignant": 212
+  },
+  "missing_values": 0,
+  "label_definition": {
+    "malignant": 1,
+    "benign": 0
+  },
+  "experimental_unit": "one patient / fine-needle aspirate sample"
+}
